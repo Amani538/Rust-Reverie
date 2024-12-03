@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Outfit&display=swap');
+
+html {
+    background-color: rgb(14, 14, 14);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    
+}
+
+.wrapper{
+
+}
+
+
+.header{
+    font-family: "Lacquer", Static;
+    margin: 0 5em 10em 47em;
+}
+
+.nav {
+    margin: auto;
+    height: 10vh;
+    display: inline-flex;
+    position: sticky;
+    top: 0;
+    z-index: 9001;
+    font-family: "Lacquer", Static;
+}
+
+.nav ul{
+  font-size: 3em;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: red;
+}
+
+
+.main {
+    display:inline-block;
+    margin: auto;
+}
+
+.image{
+    margin: 10em 10em 1em 22em; 
+}
+
+.main p { 
+    text-align: center;
+}
+
+.main img {
+  margin: 5em 0 0 0;
+}
+
+
+
+.explanations {
+    display: grid;
+    text-align: center;
+}
+
+
+.merch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 750px 750px;
+    gap: 10px;
+}
+
+.merch h1 {
+    margin: 10em 10em 10em 10em;
+}
+
+
+.merch div {
+    max-width: 100%;
+}
+
+
+.footer {
+    margin-top: 5em;
+}
+
+.logos {
+    
+}
+
+.emailsignup {
+    margin: 5em 10em 10em 41em;
+    width: 300px;
+    height: 50px; 
+}
+
+.footer button{
+    margin: 0 10em 10em 52em;
+    width: 300px;
+    height: 50px;
+}
+
+.footer p {
+
+}
+
+.logos {
+    margin: 10em 10em 10em 90em;
+    display: flex;
+}
+
+.cart{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+.signup{
+
+}
+
+.signup :hover{
+
+}
