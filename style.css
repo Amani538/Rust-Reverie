@@ -8,7 +8,7 @@ html {
 
 
 body {
-    
+
 }
 
 .wrapper{
@@ -29,6 +29,8 @@ body {
     top: 0;
     z-index: 9001;
     font-family: "Lacquer", Static;
+    background-color: rgb(14, 14, 14);
+    display: block; 
 }
 
 .nav ul{
@@ -42,31 +44,51 @@ body {
 .nav ul li a {
     color: white;
     text-decoration: none;
+    transition: .3s all ease;
 }
 
 .nav ul li a:hover {
     color: red;
 }
 
+.wabisabi {
+    margin-left: 30.5em;
+}
+
+.image{
+    margin-left: 22em;
+    width: 100%;
+}
+
 
 .main {
     display:inline-block;
     margin: auto;
+    margin-left: 27em;
+    margin-right: 27em;
+    width: 50%;
+    
 }
 
-.image{
-    margin: 10em 10em 1em 22em; 
-}
 
 .main p { 
     text-align: center;
+    margin-top: -0.5em;
 }
 
 .main img {
-  margin: 5em 0 0 0;
+    margin-bottom: 1em;
 }
 
-
+.main button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 200px;
+    max-width: 100%
+   
+}
 
 .explanations {
     display: grid;
@@ -77,22 +99,35 @@ body {
 .merch {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 750px 750px;
-    gap: 10px;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.price {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline;
 }
 
 .merch h1 {
-    margin: 10em 10em 10em 10em;
+    margin: 10em;
 }
 
 
-.merch div {
+.merch div img {
+    margin-top: 10vh;
     max-width: 100%;
+    height: auto;
 }
 
+.prices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .footer {
-    margin-top: 5em;
+    margin-top: 20em;
 }
 
 .logos {
@@ -132,5 +167,5 @@ body {
 }
 
 .signup :hover{
-
+    
 }
