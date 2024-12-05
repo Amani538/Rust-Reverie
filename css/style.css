@@ -8,7 +8,7 @@ html {
 
 
 body {
-    
+
 }
 
 .wrapper{
@@ -51,29 +51,33 @@ body {
     color: red;
 }
 
+.wabisabi {
+    margin-left: 30.5em;
+}
+
+.image{
+    margin-left: 22em;
+    width: 100%;
+}
+
 
 .main {
     display:inline-block;
     margin: auto;
+    margin-left: 27em;
+    margin-right: 27em;
+    width: 50%;
+    
 }
 
-.image{
-     
-}
 
 .main p { 
     text-align: center;
-}
-
-.image{
-    margin: 5em 10em 10em 24em;
-    width: 100%;
+    margin-top: -0.5em;
 }
 
 .main img {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-bottom: 1em;
 }
 
 .main button {
@@ -81,6 +85,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    width: 200px;
+    max-width: 100%
+   
 }
 
 .explanations {
@@ -92,27 +99,24 @@ body {
 .merch {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 750px 750px;
-    gap: 10px;
-
+    grid-template-rows: auto;
+    gap: 20px;
 }
 
 .merch h1 {
-    margin: 10em 10em 10em 10em;
+    margin: 10em;
 }
 
 
 .merch div img {
     margin-top: 10vh;
-    max-width: 400%;
-    place-items: center;
-    justify-items: center;
+    max-width: 100%;
+    height: auto;
 }
 
-button {
-    width: 200px;
-    max-width: 100%
-    
+.prices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .footer {
@@ -156,5 +160,5 @@ button {
 }
 
 .signup :hover{
-
+    
 }
