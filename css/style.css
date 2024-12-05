@@ -103,6 +103,13 @@ body {
     gap: 20px;
 }
 
+.price {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline;
+}
+
 .merch h1 {
     margin: 10em;
 }
